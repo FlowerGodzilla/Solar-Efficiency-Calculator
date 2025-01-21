@@ -1,0 +1,96 @@
+/* label focus color */
+.input-field input[type=number]:focus + label {
+    color: #2196f3;
+}
+
+/* label underline focus color */
+.input-field input[type=number]:focus {
+    border-bottom: 1px solid #2196f3;
+    box-shadow: 0 1px 0 0 #2196f3;
+}
+
+/* valid color */
+.input-field input[type=number].valid {
+    border-bottom: 1px solid #2196f3;
+    box-shadow: 0 1px 0 0 #2196f3;
+}
+
+/* invalid color */
+/*.input-field input[type=number].invalid {
+    border-bottom: 1px solid red;
+    box-shadow: 0 1px 0 0 red;
+}*/
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #2196f3;
+}
+.blue-btn {
+    background-color: #2196f3;
+}
+.blue-btn:hover, .blue-btn:focus, .blue-btn:visited  {
+    background-color: #2b6fbb;
+}
+.dropdown-content li>a,
+.dropdown-content li>span {
+    color: #2196f3;
+}
+#answers {
+    display: none;
+}
+.sun {
+    color: #FFC107;
+    font-size: 40em;
+}
+#sun_img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.error-toast {
+    background-color: #bd362f;
+    width: 330px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.error-icon {
+    margin-right: 10px;
+    font-size: 40px;
+}
+#toast-container {
+    top: auto !important;
+    right: auto !important;
+    bottom: 10%;
+    left: 10%;
+}
+.side-nav {
+    width: 400px;
+}
+.card-inputs {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.padding20 {
+    padding: 20px;
+}
+#answerA,
+#answerB,
+#answerC {
+    font-size: 34px;
+    font-weight: 700;
+    color: #2196f3;
+}
+.dollar-sign {
+    font-weight: 700;
+    color: #2196f3;
+}
+.font-thin {
+    font-weight: 300;
+}
+.answer-icon {
+    font-size: 30px;
+    margin-right: 10px;
+    color: #2196f3;
+}
